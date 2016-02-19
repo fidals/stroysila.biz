@@ -1,0 +1,56 @@
+extend template
+
+block title
+	title Сертификаты
+	
+block prepend headLinks
+	link(href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css', rel='stylesheet')
+
+block content
+	.content
+		h1 Сертификаты
+		p 
+			| “Модуль-Энерго” имеет все необходимые для работы свидетельства и сертификаты.
+		p
+			a.download-doc(href='documents/dopusk.pdf', download='')
+				i.fa.fa-download  Скачать dopusk.pdf
+			a.download-doc(href='documents/sertificat.pdf', download='')
+				i.fa.fa-download  Скачать sertifikat.pdf
+		.certificates
+			.row
+				.col-sm-4
+					a.fancybox(rel='gallery1', href='/img/certifications/main/1.jpg')
+						img.img-responsive.certificates-img(src='img/certifications/mini/1_mini.jpg', alt='')
+				.col-sm-4
+					a.fancybox(rel='gallery1', href='/img/certifications/main/2.jpg')
+						img.img-responsive.certificates-img(src='img/certifications/mini/2_mini.jpg', alt='')
+				.col-sm-4
+					a.fancybox(rel='gallery1', href='/img/certifications/main/3.jpg')
+						img.img-responsive.certificates-img(src='img/certifications/mini/3_mini.jpg', alt='')
+				.col-sm-4
+					a.fancybox(rel='gallery1', href='/img/certifications/main/4.jpg')
+						img.img-responsive.certificates-img(src='img/certifications/mini/4_mini.jpg', alt='')
+				.col-sm-4
+					a.fancybox(rel='gallery1', href='/img/certifications/main/5.jpg')
+						img.img-responsive.certificates-img(src='img/certifications/mini/5_mini.jpg', alt='')
+				.col-sm-4
+					a.fancybox(rel='gallery1', href='/img/certifications/main/6.jpg')
+						img.img-responsive.certificates-img(src='img/certifications/mini/6_mini.jpg', alt='')
+				.col-sm-4
+					a.fancybox(rel='gallery1', href='/img/certifications/main/7.jpg')
+						img.img-responsive.certificates-img(src='img/certifications/mini/7_mini.jpg', alt='')
+				.col-sm-4
+					a.fancybox(rel='gallery1', href='/img/certifications/main/8.jpg')
+						img.img-responsive.certificates-img(src='img/certifications/mini/8_mini.jpg', alt='')
+				.col-sm-4
+					a.fancybox(rel='gallery1', href='/img/certifications/main/9.jpg')
+						img.img-responsive.certificates-img(src='img/certifications/mini/9_mini.jpg', alt='')
+				.col-sm-4
+					a.fancybox(rel='gallery1', href='/img/certifications/main/10.jpg')
+						img.img-responsive.certificates-img(src='img/certifications/mini/10_mini.jpg', alt='')
+				.col-sm-4
+					a.fancybox(rel='gallery1', href='/img/certifications/main/11.jpg')
+						img.img-responsive.certificates-img(src='img/certifications/mini/11_mini.jpg', alt='')
+block append script
+	script(src='/js/certificates.js')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js')

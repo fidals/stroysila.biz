@@ -1,0 +1,39 @@
+extend template
+
+block title
+	title Наши партнеры
+
+block content
+	.content
+		h1 Наши партнеры
+		.partners
+			.partners-item
+				.row
+					.col-sm-5
+						.partners-logo
+							a(href='http://www.vest-company.com/', target='_blank')
+								img.img-responsive.partners-img(src='img/logo-vest.png')
+					.col-sm-7.partners-caption
+						| ООО “Вэст”
+						br
+						a(href='http://www.vest-company.com/', target='_blank') www.vest-company.com
+			.partners-item
+				.row
+					.col-sm-5
+						.partners-logo
+							a(href='http://www.stpr.ru/', target='_blank')
+								img.img-responsive.partners-img(src='img/logo-stroy1.png')
+					.col-sm-7.partners-caption
+						| ЗАО «Институт«Стройпроект»
+						br
+						a(href='http://www.stpr.ru/', target='_blank') www.stpr.ru
+			.partners-item
+				.row
+					.col-sm-5
+						.partners-logo
+							a(href='http://www.lenenergo.ru/about/', target='_blank')
+								img.img-responsive.partners-img(src='img/logo-lenenergo.png')
+					.col-sm-7.partners-caption
+						| ОАО «Ленэнерго»
+						br
+						a(href='http://www.lenenergo.ru/about/', target='_blank') www.lenenergo.ru

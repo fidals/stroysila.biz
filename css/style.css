@@ -1,0 +1,282 @@
+/* line 9, C:/Users/User/GitHub/stkm/css/style.scss */
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table; }
+
+/* line 15, C:/Users/User/GitHub/stkm/css/style.scss */
+html {
+  height: 100%; }
+
+/* line 19, C:/Users/User/GitHub/stkm/css/style.scss */
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  height: 100%;
+  min-height: 100%; }
+
+/* line 27, C:/Users/User/GitHub/stkm/css/style.scss */
+h1 {
+  margin: 10px 0 30px 20px; }
+
+/* line 31, C:/Users/User/GitHub/stkm/css/style.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 35, C:/Users/User/GitHub/stkm/css/style.scss */
+.link-style, .header .contacts a {
+  color: black;
+  font-size: 16px;
+  font-weight: 500; }
+
+/* line 41, C:/Users/User/GitHub/stkm/css/style.scss */
+.container-wrapper {
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  max-width: 900px;
+  flex: 1 0 auto; }
+
+/* line 48, C:/Users/User/GitHub/stkm/css/style.scss */
+.container {
+  max-width: 900px; }
+
+/* line 53, C:/Users/User/GitHub/stkm/css/style.scss */
+.header {
+  clear: both;
+  padding: 5px 15px 0;
+  min-height: 120px;
+  position: relative; }
+  /* line 59, C:/Users/User/GitHub/stkm/css/style.scss */
+  .header .logo-modul {
+    background: linear-gradient(to bottom, #F1F1F1, #FFF);
+    box-shadow: 0 0 4px 1px #C0C0C0;
+    clear: both;
+    overflow: hidden;
+    max-width: 180px;
+    padding: 0 5px; }
+  /* line 68, C:/Users/User/GitHub/stkm/css/style.scss */
+  .header .img-modul {
+    display: block;
+    margin: 0 auto; }
+  /* line 73, C:/Users/User/GitHub/stkm/css/style.scss */
+  .header .contacts {
+    margin: 15px 0 10px;
+    overflow: hidden; }
+    /* line 77, C:/Users/User/GitHub/stkm/css/style.scss */
+    .header .contacts li {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700; }
+    /* line 82, C:/Users/User/GitHub/stkm/css/style.scss */
+    .header .contacts a {
+      font-size: 18px; }
+    /* line 87, C:/Users/User/GitHub/stkm/css/style.scss */
+    .header .contacts-block {
+      padding: 0 0 5px 40px; }
+    /* line 91, C:/Users/User/GitHub/stkm/css/style.scss */
+    .header .contacts-link:hover {
+      color: #1E90FF; }
+
+/* line 99, C:/Users/User/GitHub/stkm/css/style.scss */
+.button-nav {
+  background-color: #CFCFCF;
+  font-size: 18px; }
+
+/* line 104, C:/Users/User/GitHub/stkm/css/style.scss */
+.custom-nav {
+  background-color: #CFCFCF;
+  border-radius: 0 0 4%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 40px;
+  padding: 0; }
+  /* line 111, C:/Users/User/GitHub/stkm/css/style.scss */
+  .custom-nav li a {
+    font-weight: 600;
+    padding: 15px 0; }
+
+/* line 119, C:/Users/User/GitHub/stkm/css/style.scss */
+.content {
+  flex: 1 0 auto;
+  margin: 0 auto 30px;
+  padding: 0 40px 10px; }
+  /* line 124, C:/Users/User/GitHub/stkm/css/style.scss */
+  .content .img-page {
+    margin: 20px auto 30px; }
+  /* line 128, C:/Users/User/GitHub/stkm/css/style.scss */
+  .content .content-list li {
+    padding: 5px 0; }
+  /* line 132, C:/Users/User/GitHub/stkm/css/style.scss */
+  .content .img-lap {
+    margin: 0 auto 30px; }
+  /* line 137, C:/Users/User/GitHub/stkm/css/style.scss */
+  .content .home-list li {
+    padding-bottom: 15px; }
+  /* line 141, C:/Users/User/GitHub/stkm/css/style.scss */
+  .content .home-list-block {
+    padding: 0; }
+
+/* line 147, C:/Users/User/GitHub/stkm/css/style.scss */
+.certificates, .objects-preview {
+  height: 100%;
+  margin: 30px 0 30px; }
+  /* line 151, C:/Users/User/GitHub/stkm/css/style.scss */
+  .certificates-img {
+    margin-bottom: 35px; }
+
+/* line 156, C:/Users/User/GitHub/stkm/css/style.scss */
+.img-caption {
+  padding: 10px; }
+
+/* line 162, C:/Users/User/GitHub/stkm/css/style.scss */
+.objects-preview-img {
+  margin-bottom: 20px; }
+
+/* line 165, C:/Users/User/GitHub/stkm/css/style.scss */
+.objects-preview:last-child {
+  margin-bottom: 0; }
+
+/* line 170, C:/Users/User/GitHub/stkm/css/style.scss */
+.ya-map {
+  height: 400px;
+  margin-top: 20px; }
+
+/* line 175, C:/Users/User/GitHub/stkm/css/style.scss */
+.partners {
+  margin: 50px 60px 0; }
+  /* line 177, C:/Users/User/GitHub/stkm/css/style.scss */
+  .partners-logo {
+    background-color: rgba(135, 206, 250, 0.3);
+    box-shadow: 0 0 4px 1px #C0C0C0;
+    max-width: 250px;
+    margin: 0 auto 0 0;
+    padding: 10px 0; }
+  /* line 185, C:/Users/User/GitHub/stkm/css/style.scss */
+  .partners-caption {
+    font-size: 18px;
+    margin-top: 10px; }
+  /* line 190, C:/Users/User/GitHub/stkm/css/style.scss */
+  .partners-item {
+    padding: 0 0 30px; }
+  /* line 194, C:/Users/User/GitHub/stkm/css/style.scss */
+  .partners-img {
+    margin: 0 auto; }
+
+/* line 203, C:/Users/User/GitHub/stkm/css/style.scss */
+.footer-content {
+  background-color: #CFCFCF;
+  flex: none;
+  margin: 0 auto;
+  min-height: 100px;
+  max-width: 900px; }
+
+/* line 210, C:/Users/User/GitHub/stkm/css/style.scss */
+.footer-navbar {
+  height: 100%;
+  text-align: center;
+  padding: 5px 10px 0 0; }
+  /* line 215, C:/Users/User/GitHub/stkm/css/style.scss */
+  .footer-navbar li {
+    display: inline-block;
+    padding: 0 0 5px 0;
+    font-size: 14px; }
+  /* line 221, C:/Users/User/GitHub/stkm/css/style.scss */
+  .footer-navbar-links:hover {
+    color: #1E90FF; }
+
+/* line 225, C:/Users/User/GitHub/stkm/css/style.scss */
+.footer-logo {
+  margin: 15px 0 0 15px; }
+
+/* line 229, C:/Users/User/GitHub/stkm/css/style.scss */
+.copyright p {
+  font-size: 12px;
+  text-align: center; }
+
+@media screen and (min-width: 767px) {
+  /* line 239, C:/Users/User/GitHub/stkm/css/style.scss */
+  .footer-content .footer-navbar li {
+    padding-left: 17px; }
+  /* line 242, C:/Users/User/GitHub/stkm/css/style.scss */
+  .container {
+    padding: 0; } }
+
+@media screen and (max-width: 767px) {
+  /* line 248, C:/Users/User/GitHub/stkm/css/style.scss */
+  body {
+    display: block; }
+  /* line 251, C:/Users/User/GitHub/stkm/css/style.scss */
+  h1 {
+    margin-top: 20px;
+    text-align: center; }
+  /* line 255, C:/Users/User/GitHub/stkm/css/style.scss */
+  .content-home {
+    font-size: 20px; }
+    /* line 257, C:/Users/User/GitHub/stkm/css/style.scss */
+    .content-home .img-lap {
+      margin-bottom: 10px; }
+  /* line 261, C:/Users/User/GitHub/stkm/css/style.scss */
+  .content {
+    padding: 0 15px 10px; }
+    /* line 263, C:/Users/User/GitHub/stkm/css/style.scss */
+    .content .objects-img {
+      margin: 0 auto; }
+  /* line 267, C:/Users/User/GitHub/stkm/css/style.scss */
+  .logo-header, .header .img-logo-header, .footer-content .footer-logo, header .contacts-block .logo-modul, .footer-content-item, .certificates-img {
+    margin: 5px auto 0; }
+  /* line 271, C:/Users/User/GitHub/stkm/css/style.scss */
+  .header .contacts {
+    margin: 10px 0; }
+    /* line 273, C:/Users/User/GitHub/stkm/css/style.scss */
+    .header .contacts a {
+      font-size: 22px; }
+    /* line 276, C:/Users/User/GitHub/stkm/css/style.scss */
+    .header .contacts li {
+      text-align: center; }
+  /* line 280, C:/Users/User/GitHub/stkm/css/style.scss */
+  .header .row .contacts-block {
+    padding: 0; }
+  /* line 283, C:/Users/User/GitHub/stkm/css/style.scss */
+  .header .logo-header, .header .logo-modul {
+    width: 150px; }
+  /* line 287, C:/Users/User/GitHub/stkm/css/style.scss */
+  .button-nav {
+    margin-bottom: 10px; }
+  /* line 290, C:/Users/User/GitHub/stkm/css/style.scss */
+  .container-wrapper .custom-nav {
+    margin: 5px 0 20px; }
+    /* line 292, C:/Users/User/GitHub/stkm/css/style.scss */
+    .container-wrapper .custom-nav li a {
+      padding: 5px 0; }
+  /* line 296, C:/Users/User/GitHub/stkm/css/style.scss */
+  .img-caption {
+    text-align: center; }
+  /* line 299, C:/Users/User/GitHub/stkm/css/style.scss */
+  .partners-caption {
+    margin-top: 15px;
+    padding-right: 20px;
+    text-align: center; }
+  /* line 304, C:/Users/User/GitHub/stkm/css/style.scss */
+  .partners-logo {
+    margin: 0 auto; }
+  /* line 309, C:/Users/User/GitHub/stkm/css/style.scss */
+  .footer-content {
+    margin: 0; }
+    /* line 311, C:/Users/User/GitHub/stkm/css/style.scss */
+    .footer-content .footer-navbar li {
+      display: block;
+      font-size: 16px;
+      padding: 0;
+      text-align: center; }
+    /* line 317, C:/Users/User/GitHub/stkm/css/style.scss */
+    .footer-content .footer-navbar {
+      margin: 5px 0; }
+    /* line 320, C:/Users/User/GitHub/stkm/css/style.scss */
+    .footer-content .footer-logo {
+      width: 110px; } }
+
+/* line 330, C:/Users/User/GitHub/stkm/css/style.scss */
+.download-doc {
+  font-size: 18px;
+  margin-right: 30px; }
+
+/*# sourceMappingURL=style.css.map */
