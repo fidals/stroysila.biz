@@ -15,7 +15,6 @@ html
 	body
 		.container-wrapper
 			.container
-				//-HEADER
 				header.header
 					.row
 						.col-md-8.col-sm-7
@@ -35,8 +34,6 @@ html
 										a.contacts-link(href='mailto:info@stkm-energo.ru')
 											i.fa.fa-envelope
 											&nbsp; info@stkm-energo.ru
-				//-/HEADER
-				//-NAV
 				a.button-nav.btn.btn-navbar.visible-xs(data-toggle='collapse', data-target='.navbar-collapse')
 					i.fa.fa-bars   МЕНЮ
 				nav.custom-nav.navbar-static-top.navbar-collapse.collapse
@@ -53,9 +50,7 @@ html
 							a(href='partners.html') Партнеры
 						li
 							a(href='contacts.html') Контакты
-				//-/NAV
 				block content
-				//-FOOTER
 		footer.footer-content
 			.container
 				.row
@@ -84,7 +79,6 @@ html
 								| Любое использование материалов сайта запрещено без письменного разрешения
 								br
 								| ООО "МодульЭнерго"
-						//-/FOOTER
 		block script
 			script(src='https://code.jquery.com/jquery-2.2.0.min.js')
 			script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS', crossorigin='anonymous')
