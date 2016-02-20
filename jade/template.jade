@@ -7,38 +7,36 @@ html
 			title 
 		block headLinks
 			link(rel='icon', type='image/x-icon', href='./img/favicon.ico')
+			link(href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300&subset=latin,cyrillic', rel='stylesheet', type='text/css')
+		block headStyles
 			link(href='http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css', rel='stylesheet')
 			link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7', crossorigin='anonymous')
 			link(rel='stylesheet', href='./css/style.css')
-			link(href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300&subset=latin,cyrillic', rel='stylesheet', type='text/css')
 	body
 		.container-wrapper
 			.container
-				//HEADER
+				//-HEADER
 				header.header
 					.row
 						.col-md-8.col-sm-7
 							.logo-header
 								a.logo-header-link(href='index.html', title='На Главную')
-									img.img-responsive.img-logo-header(src='img/modul_energo_logo.png', alt='')
+									img.img-responsive.img-logo-header(src='img/modul_energo_logo.png')
 						.col-md-4.col-sm-5
 							.contacts-block
 								.logo-modul
-									a(href='#')
-										img.img-responsive.img-modul(src='img/stk_modul.png', alt='')
+									img.img-responsive.img-modul(src='img/stk_modul.png')
 								ul.list-unstyled.contacts
 									li
 										a.contacts-link(href='tel:+7(812)6700741')
 											i.fa.fa-phone
-											&nbsp;
-											|  +7 (812) 670-07-41
+											&nbsp; +7 (812) 670-07-41
 									li
 										a.contacts-link(href='mailto:info@stkm-energo.ru')
 											i.fa.fa-envelope
-											&nbsp;
-											|  info@stkm-energo.ru
-				//HEADER
-				//NAV
+											&nbsp; info@stkm-energo.ru
+				//-/HEADER
+				//-NAV
 				a.button-nav.btn.btn-navbar.visible-xs(data-toggle='collapse', data-target='.navbar-collapse')
 					i.fa.fa-bars   МЕНЮ
 				nav.custom-nav.navbar-static-top.navbar-collapse.collapse
@@ -55,9 +53,9 @@ html
 							a(href='partners.html') Партнеры
 						li
 							a(href='contacts.html') Контакты
-				///NAV
-				//CONTENT
+				//-/NAV
 				block content
+				//-FOOTER
 		footer.footer-content
 			.container
 				.row
@@ -86,7 +84,7 @@ html
 								| Любое использование материалов сайта запрещено без письменного разрешения
 								br
 								| ООО "МодульЭнерго"
-						// /footer
+						//-/FOOTER
 		block script
 			script(src='https://code.jquery.com/jquery-2.2.0.min.js')
 			script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS', crossorigin='anonymous')
