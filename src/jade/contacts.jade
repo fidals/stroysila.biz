@@ -1,0 +1,22 @@
+extend _template
+
+block title
+  title Контакты
+
+block content
+  .content
+    h1 Контакты
+
+    p
+      | Телефон: 8-812-409-98-06
+
+    p
+      | Почта:
+      a(href='mailto:#{mainEmail}')
+        |  #{mainEmail}
+
+    p Санкт-Петербург, Пискаревский проспект 63, БЦ "Виадук-П", офис 306
+
+    .ya-map
+      script(src='https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=5AmGuLkUtjzgjwHaLsjsuQsp_KnfKr7q&amp;' +
+                 'width=100%&amp;scroll=true', charset='utf-8', async)
