@@ -28,8 +28,8 @@ html
           .row
             .col-md-8.col-sm-7
               .logo-header
-                a.logo-header-link(href='/', title='На Главную')
-                  img.img-responsive.img-logo-header(src='img/modul_energo_logo.png')
+                a.logo-link(href='/', title='На Главную')
+                  object.logo-svg(type='image/svg+xml', data='./img/logo.svg')
 
             .col-md-4.col-sm-5
               .contacts-block
@@ -67,21 +67,21 @@ html
       .container
         .row
           .col-sm-3
-            a(href='/', title='На Главную')
-              img.img-responsive.footer-logo(src='img/footer-logo1.png')
+            a.logo-link(href='/', title='На Главную')
+              object.logo-svg-footer(type='image/svg+xml', data='./img/logo.svg')
+
           .col-sm-9
-            .footer-navbar
-              ul.footer-navbar.list-unstyled
-                li
-                  a.footer-navbar-links(href='/about.html') О компании
-                li
-                  a.footer-navbar-links(href='/services.html') Услуги
-                li
-                  a.footer-navbar-links(href='/partners.html') Партнеры
-                li
-                  a.footer-navbar-links(href='/certificates.html') Сертификаты
-                li
-                  a.footer-navbar-links(href='/contacts.html') Контакты
+            ul.footer-navbar.list-unstyled
+              li
+                a.footer-navbar-links(href='/about.html') О компании
+              li
+                a.footer-navbar-links(href='/services.html') Услуги
+              li
+                a.footer-navbar-links(href='/partners.html') Партнеры
+              li
+                a.footer-navbar-links(href='/certificates.html') Сертификаты
+              li
+                a.footer-navbar-links(href='/contacts.html') Контакты
 
     block script
       script(src='https://code.jquery.com/jquery-2.2.0.min.js')

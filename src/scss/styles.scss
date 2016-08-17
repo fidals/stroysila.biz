@@ -53,7 +53,7 @@ a:hover {
 // HEADER
 .header {
   margin: 15px 0;
-  min-height: 120px;
+  height: 80px;
   position: relative;
 
   .contacts {
@@ -80,11 +80,6 @@ a:hover {
   }
 }
 
-.logo-header-link {
-  position: relative;
-  top: -5px;
-}
-
 .logo-modul {
   background: linear-gradient(to bottom, #F1F1F1, $c-white);
   box-shadow: 0 0 2px #C0C0C0;
@@ -94,12 +89,28 @@ a:hover {
   padding: 0 5px;
 }
 
+.logo {
+  &-link {
+    display: block;
+  }
+
+  &-svg {
+    pointer-events: none;
+    width: 300px;
+  }
+
+  &-svg-footer {
+    pointer-events: none;
+    width: 100%;
+  }
+}
+
 .img-modul {
   display: block;
   margin: 0 auto;
 }
 
-//nav
+// NAVIGATION
 .button-nav {
   background-color: $color-nav;
   font-size: 18px;
@@ -120,6 +131,10 @@ a:hover {
       background: rgba(80, 80, 80, 0.1);
     }
   }
+}
+
+.content-wrapper .custom-nav {
+  height: 52px !important;
 }
 
 // CONTENT
@@ -229,13 +244,12 @@ a:hover {
     background: $c-white;
     border: 1px solid #e6e6e6;
     flex: none;
-    min-height: 100px;
-    padding: 10px 0;
+    padding: 10px 0 4px;
   }
 
   &-navbar {
+    padding: 14px 0 0;
     text-align: center;
-    padding: 18px 0 0;
 
     li {
       display: inline-block;

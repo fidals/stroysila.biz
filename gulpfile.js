@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var jade = require('gulp-jade');
 var sass = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
 var rename = require('gulp-rename');
 var imagemin = require('gulp-imagemin');
 var uglify = require('gulp-uglify');
@@ -41,7 +42,10 @@ gulp.task('documents', function() {
 // ***********************************
 gulp.task('sass', function() {
   return gulp.src('src/scss/**/*.scss')
-    .pipe(sass({outputStyle: 'compressed'}))
+    .pipe(sass({ outputStyle: 'compressed' }))
+    .pipe(autoprefixer({
+      browsers: ['last 3 versions'],
+    }))
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('dist/css'))
     .pipe(connect.reload());
