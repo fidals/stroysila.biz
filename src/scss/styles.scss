@@ -297,6 +297,13 @@ p span.backlink {
     padding-left: 17px;
   }
 
+  .copyright {
+    margin-top: -10px;
+    color: grey;
+    font-size: 0.9em;
+    min-width: 163px;
+  }
+
   .container {
     padding: 0;
   }
@@ -390,6 +397,10 @@ p span.backlink {
   .footer-content {
     margin: 0;
 
+    .copyright {
+        text-align: center;
+    }
+
     .footer-navbar {
       margin: 5px 0;
 
@@ -400,9 +411,9 @@ p span.backlink {
         text-align: center;
       }
     }
-
     .footer-logo {
       width: 110px;
     }
+
   }
 }
